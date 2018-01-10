@@ -1,0 +1,59 @@
+﻿objectives
+1 understad the vehicle bridge interaction
+	how to approach this I76 problem... what kind of models etc.
+larger picture
+	HL-93 - range o fimpact factors for different vehicles
+	fatigue: cycles per truck
+	how to characterize a probelmatic profile (IRI)
+	how to model the dynamic amplification etc. with other programs (i.e. simplistic methods)
+	
+recommendations how to diagnose and mitigte vibration issues
+
+s/5.5 for wheel load or lane
+standard specifications 1973 public.resource.org
+
+drexel meeting notes
+
+new material to send frank:
+
+simulated bridge response from final simulation (successful profile run)
+fft zoomed in
+corrected numbers for dist. factors
+
+
+
+slides notes from meeting with frank: 11/1/17
+
+expand slides - especially to show work done (magnitude)
+begin with some understanding of where we're going (organization of phases) maybe bring it back between phases to remind where we're going
+modeling expanded (substructures, modeling decisions etc) try side by side
+model updating (parameters, lessons learned, etc.)
+	start out with stid circle, then break out 
+	how updating was performed (manual?) and final parameters, model changes etc.
+	how future updating could be performed if needed, why needed
+
+motivation for why st-id 
+bridge wasn't that unique - no direct apparent reasons for the dynamic responses - thus the need for a model
+No funny business in initial model - leads to bridge-vehicle modeling
+
+more of the process of how we found out what we know
+
+truck before, on, then off bridge
+
+the truck bridge time history plot - not unique (of the n runs, n were similar)
+	boxes around span periods
+	point out it's similar to acceleration seen before
+	fft of bridge response compared to earlier psd to show same type of vibration
+	what's the correlation between velocity and truck acceleration
+	show another truck-bridge response for lower speed - tease out that bridge response does not match the trend of truck accel.
+	
+phase 5
+	details about what lusas is doing - more for my research. what shortcuts it's taking
+	what do the actual models look like
+	talk more about the modeling
+	one slide for each of the summary conclusions
+	
+we've identified the the profile is likely the culprit
+must now prove it
+	
+	
