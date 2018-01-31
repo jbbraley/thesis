@@ -1,0 +1,47 @@
+Task 2.e.
+Simulate test scenarios and compare model results with experimental responses
+1. Examine model to make sure the dynamics are representative
+2. Rerun model with profile previously used
+3. Identify appropriate vehicle parameter ranges from literature
+4. Adjust vehicle parameters such that responses match.
+5. Look at alternative vehicle and bridge parameters that also produce matching results
+6. Compare vehicle and bridge acceleration and stress responses with/without profile
+7. Run different measured profile and different lanes
+7. Look into alternative profiles (i.e. artificially generated) and the resulting effect on model response
+8. Hypothesize key characteristics of profile (likely in frequency domain) that when removed, reduce amplification
+9. Calculate amplification factors of I76 for different locations and different quantities (i.e. stress and displacement)
+10. Select simulation scenario to use for future comparison (control simulation)
+
+11. Document task
+
+Task 3.a.
+Reduce model complexity
+1. Look into the effect of the number of spans and number of modes included, reduce as possible
+2. Reduce model by eliminating substructure (make sure dynamic properties remain the same)
+3. Compare original, grillage, and single line models
+4. Document Task
+
+Task 3.b.
+Identify model properties to which dynamic amplification is sensitive
+1. Compile from previous work and brainstorm for additional. List.
+2. Ensure they all influence control simulation
+Task 3.c.
+Develop parameter ranges
+3. Identify parameters that influence more than one mechanism
+4. Identify non-unique parameters
+5. Figure out how these parameters should be altered in the model, adjust as necessary
+6. Begin Looking into API methods of adjusting model properties
+7. Create sensitivity plots
+8. Identify preliminary ranges
+9. Document
+
+Task 3.d.
+Examine and refine sensitivity plots
+1. Identify quantities that are dependent on multiple parameters (e.g. mode frequency)
+ and determine if responses remain constant with different parameter values that produce the same quantity
+2. Look through each sensitivity study
+  1. Identify other parameters that should be altered to check if sensitivity bounds change
+  2. Identify if parameter is adjusted in the correct way
+  3. Make sure increment amount is appropriate
+  4. Select final range values
+3. Compile and document and comment of final parameter set and ranges. Justify ranges as need be.
