@@ -1,0 +1,9 @@
+things that may go in the appendix:
+instrumentation plan
+modeling methods - specific details on model form and construction
+LUSAS modeling
+modeling calibration/validation (just summarize with validation in body?)
+spectral analysis methods (common (PSD) and uncommon (Devitis))
+equations of motion & state space matrices
+details on implimenting ss model (scripts and functions)
+details on parametric study sampling and implimentation
