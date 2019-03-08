@@ -1,0 +1,25 @@
+Frank's review:
+Methods of processing (filtering, PSD, 
+	Specific parameters based on defaults, playing around, passed down rules-of-thumb.
+Where does the whole human comfort thing fit in
+CMIF has been thoroughly documented in literature, devitis thesis, just summarize?
+Trying to demonstrate the acceleration is not just high frequency content, that it low frequency and associated with appreicable bridge deformation. Best way to do this?
+Filtering is loose.  Amplification from it is only an estimate. Methods are my own rules-of-thumb. Explain these, list assumptions violated, use FE to demonstrate the feasibility?
+ 
+
+TO DO:
+Spruce up intro and add objectives and outline
+Provide objectives and strategy for first part (stid), and reorganize content as appropriate (i.e. fe model first)
+Objectives and FE driven instumentation design
+Sensor and DAQ details and specs
+pull out human comfort content (+ accel2disp)
+filter parameter decision justification
+Why use PSD, pwelch, parameters
+demonstrate capabilities of converting accel to displacement in the frequency domain, list assumptions
+CMIF, greater detail (see Devitis thesis)
+Greater detail on estimating amplification via filtering (assumptions, decisions, demonstrate ability with FE model)
+Compare operational responses to those from design level loads to show source of conservatism compensating for damp
+Figures and better explanation of uplift at midspan.
+Formalize model updating (ojective function, etc.)
+
+
