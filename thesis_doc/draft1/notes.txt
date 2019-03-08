@@ -1,3 +1,17 @@
+Frank's review:
+Methods of processing (filtering, PSD, 
+	Specific parameters based on defaults, playing around, passed down rules-of-thumb.
+Where does the whole human comfort thing fit in
+CMIF has been thoroughly documented in literature, just summarize?
+Filtering is loose.  Amplification from it is only an estimate. Methods are my own rules-of-thumb. Explain these, list assumptions violated, use FE to demonstrate the feasibility?
+ 
+
+
+
+
+
+
+
 things that may go in the appendix:
 instrumentation plan
 modeling methods - specific details on model form and construction
@@ -7,3 +21,5 @@ spectral analysis methods (common (PSD) and uncommon (Devitis))
 equations of motion & state space matrices
 details on implimenting ss model (scripts and functions)
 details on parametric study sampling and implimentation
+
+
