@@ -1,0 +1,2 @@
+should I avoid identifying I76?
+Sensor, equipment, etc.: call out model info, or provide detailed specs
