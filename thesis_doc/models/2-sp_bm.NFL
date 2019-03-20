@@ -1,5 +1,5 @@
  ____________________________________________ 
-*Solution commenced on 13/03/2019 at 11:27:04 
+*Solution commenced on 19/03/2019 at 12:23:37 
   
  Strand7 [2.4.6][Solver Build: 24141222] (32-Bit) 
   
@@ -43,7 +43,7 @@
  [K] MATRIX SIZE             : 2.2 KB 
  [M] MATRIX SIZE             : < 1 KB 
  OPTIMUM RAM NEEDED          : 64.0 KB 
- FREE SCRATCH SPACE          : 840.6 GB 
+ FREE SCRATCH SPACE          : 841.2 GB 
   
 *WARNING[237]:Default freedom conditions appear to be over-constrained - one or more elements may require additional freedom. 
   
@@ -109,9 +109,33 @@
     3      1.69091782E+06      1.30035296E+03      2.06957601E+02 
     4      3.71008033E+06      1.92615688E+03      3.06557389E+02 
   
- TOTAL CPU TIME              : 0.297 Seconds 
+ Mass Participation Factors and Effective Modal Damping... 
   
-*Solution completed on 13/03/2019 at 11:27:05 
+ TOTAL MASS (MX,MY,MZ)       : ( 6.084688E-01, 5.616635E-01, 0.000000E+00) 
+  
+ MODE PARTICIPATION FOR TRANSLATIONAL EXCITATION 
+ Mode    Frequency     Modal Mass    Modal Stiff    PF-X      PF-Y      PF-Z 
+            (Hz)          (Eng)         (Eng)        (%)       (%)       (%) 
+    1    8.2371E+01    1.2047E+02    3.2270E+07     0.000     0.000     0.000  
+    2    1.2335E+02    1.0863E+02    6.5254E+07     0.000    82.595     0.000  
+    3    2.0696E+02    1.2047E+02    2.0371E+08    83.049     0.000     0.000  
+    4    3.0656E+02    1.3319E+02    4.9413E+08     0.000     0.000     0.000  
+ ----------------------------------------------------------------------------  
+ TOTAL TRANSLATIONAL MASS PARTICIPATION FACTORS    83.049    82.595     0.000 
+  
+ MODE PARTICIPATION FOR ROTATIONAL EXCITATION 
+ Mode    Frequency     Modal Mass    Modal Stiff    PF-RX     PF-RY     PF-RZ 
+            (Hz)          (Eng)         (Eng)        (%)       (%)       (%) 
+    1    8.2371E+01    1.2047E+02    3.2270E+07     0.000     0.000    16.820  
+    2    1.2335E+02    1.0863E+02    6.5254E+07     0.000     0.000    62.730  
+    3    2.0696E+02    1.2047E+02    2.0371E+08     0.000     0.000     0.000  
+    4    3.0656E+02    1.3319E+02    4.9413E+08     0.000     0.000     3.996  
+ ----------------------------------------------------------------------------  
+ TOTAL ROTATIONAL MASS PARTICIPATION FACTORS        0.000     0.000    83.547 
+  
+ TOTAL CPU TIME              : 0.359 Seconds 
+  
+*Solution completed on 19/03/2019 at 12:23:38 
 *Solution time: 1 Second 
   
  
