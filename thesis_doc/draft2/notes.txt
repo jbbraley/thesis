@@ -8,6 +8,8 @@ Filtering is loose.  Amplification from it is only an estimate. Methods are my o
  
 
 TO DO:
+make plots line and marker to provide resolution info
+
 Spruce up intro and add objectives and outline
 Provide objectives and strategy for first part (stid), and reorganize content as appropriate (i.e. fe model first)
 Objectives and FE driven instumentation design

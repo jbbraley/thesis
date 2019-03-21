@@ -1,0 +1,146 @@
+ ____________________________________________ 
+*Solution commenced on 19/03/2019 at 12:23:37 
+  
+ Strand7 [2.4.6][Solver Build: 24141222] (32-Bit) 
+  
+ ANALYSIS TYPE               : NATURAL FREQUENCY 
+  
+ COMPUTER NAME               : JB-NOTEBOOK 
+ USER LOGON NAME             : John B 
+ CPU                         : Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz 
+ USABLE PHYSICAL MEMORY      : 4.0 GB 
+ USABLE VIRTUAL MEMORY       : 3.0 GB 
+  
+ MODEL FILE                  : "C:\Users\John B\Projects_Git\thesis\thesis_doc\models\2-sp_bm.st7" 
+ RESULT FILE                 : "C:\Users\John B\Projects_Git\thesis\thesis_doc\models\2-sp_bm.NFA" 
+ SCRATCH PATH                : "C:\Users\John B\Strand7\Tmp\" 
+  
+ TOTALS 
+ Nodes                       : 21 
+ Beams                       : 20 
+ Plates                      :  0 
+ Bricks                      :  0 
+ Links                       :  0 
+  
+ SOLVER UNITS 
+ Length                      : in 
+ Mass                        : lbm 
+ Force                       : lbf 
+ Stress                      : psi 
+  
+ FREEDOM CASE                : "Freedom Case 1" 
+  
+ MASS MATRIX OPTION 
+ Beam Elements               : Lumped 
+ Global Matrix               : Diagonal 
+ Non-Structural Mass         : None 
+  
+ STORAGE SCHEME              : Sparse  
+ SORTING METHOD              : AMD  
+  
+ NUMBER OF EQUATIONS         : 59 
+ MATRIX FILL-IN              : 0.0% 
+ [K] MATRIX SIZE             : 2.2 KB 
+ [M] MATRIX SIZE             : < 1 KB 
+ OPTIMUM RAM NEEDED          : 64.0 KB 
+ FREE SCRATCH SPACE          : 841.2 GB 
+  
+*WARNING[237]:Default freedom conditions appear to be over-constrained - one or more elements may require additional freedom. 
+  
+ Reducing 59 Equations (Using 64.0 KB RAM)... 
+  
+ MAXIMUM PIVOT               : 3.360319E+08 (Node 12 RZ) 
+ MINIMUM PIVOT               : 1.055610E+06 (Node 4 DY) 
+  
+ NODAL DISPLACEMENT COMPONENTS USED IN STARTING VECTOR 
+       5[DY]        7[DY]        9[DY]       10[DY]       12[DY]       13[DY]  
+      15[DY]       16[DY]       18[DY]  
+  
+ SUBSPACE ITERATION 
+ Natural Frequencies         : 4  
+ Mass Degrees of Freedom     : 38 
+ Subspace Dimension          : 10 
+ Convergence Tolerance       : 1.000000E-05 
+ Frequency Shift             : 0.000000E+00 Hz 
+  
+ ITERATION 1 
+ Current Frequencies (Hz) 
+  8.24960E+01  1.23877E+02  2.11373E+02  3.16935E+02  3.84085E+02  6.76267E+02 
+  8.58974E+02  1.05609E+03  1.45726E+03  1.53580E+03 
+  
+ ITERATION 2 
+ Current Frequencies (Hz) 
+  8.23710E+01  1.23353E+02  2.06977E+02  3.06680E+02  3.63508E+02  6.28593E+02 
+  6.94653E+02  9.94760E+02  1.19668E+03  1.36067E+03 
+ Relative Difference [Converged: 0] 
+  1.51662E-03  4.24779E-03  2.12396E-02  3.34373E-02  5.66085E-02  7.58434E-02 
+  2.36552E-01  6.16572E-02  2.17755E-01  1.28707E-01 
+  
+ ITERATION 3 
+ Current Frequencies (Hz) 
+  8.23710E+01  1.23352E+02  2.06958E+02  3.06558E+02  3.63124E+02  6.20100E+02 
+  6.73085E+02  7.39542E+02  9.84360E+02  1.08985E+03 
+ Relative Difference [Converged: 2] 
+  5.62245E-08  9.98439E-07  9.15178E-05  3.98484E-04  1.05528E-03  1.36955E-02 
+  3.20436E-02  3.45103E-01  2.15690E-01  2.48498E-01 
+  
+ ITERATION 4 
+ Current Frequencies (Hz) 
+  8.23710E+01  1.23352E+02  2.06958E+02  3.06557E+02  3.63121E+02  6.19545E+02 
+  6.30087E+02  6.72703E+02  9.77387E+02  1.06933E+03 
+ Relative Difference [Converged: 4] 
+  1.24354E-12  1.08227E-10  2.61275E-07  1.68369E-06  8.74182E-06  8.95610E-04 
+  6.82408E-02  9.93585E-02  7.13450E-03  1.91910E-02 
+  
+ ITERATION 5 
+ Current Frequencies (Hz) 
+  8.23710E+01  1.23352E+02  2.06958E+02  3.06557E+02  3.63121E+02  6.19516E+02 
+  6.20508E+02  6.72475E+02  9.73734E+02  1.50068E+03 
+ Relative Difference [Converged: 4] 
+  0.00000E+00  1.33638E-14  3.29744E-10  8.14183E-09  8.59952E-08  4.75962E-05 
+  1.54367E-02  3.39390E-04  3.75164E-03  2.87440E-01 
+  
+ THE FIRST 4 EIGENVALUES HAVE CONVERGED 
+  
+ FINAL FREQUENCY RESULTS 
+ Mode        Eigenvalue       Frequency (rad/s)    Frequency (Hz) 
+    1      2.67860498E+05      5.17552411E+02      8.23710245E+01 
+    2      6.00696437E+05      7.75046087E+02      1.23352416E+02 
+    3      1.69091782E+06      1.30035296E+03      2.06957601E+02 
+    4      3.71008033E+06      1.92615688E+03      3.06557389E+02 
+  
+ Mass Participation Factors and Effective Modal Damping... 
+  
+ TOTAL MASS (MX,MY,MZ)       : ( 6.084688E-01, 5.616635E-01, 0.000000E+00) 
+  
+ MODE PARTICIPATION FOR TRANSLATIONAL EXCITATION 
+ Mode    Frequency     Modal Mass    Modal Stiff    PF-X      PF-Y      PF-Z 
+            (Hz)          (Eng)         (Eng)        (%)       (%)       (%) 
+    1    8.2371E+01    1.2047E+02    3.2270E+07     0.000     0.000     0.000  
+    2    1.2335E+02    1.0863E+02    6.5254E+07     0.000    82.595     0.000  
+    3    2.0696E+02    1.2047E+02    2.0371E+08    83.049     0.000     0.000  
+    4    3.0656E+02    1.3319E+02    4.9413E+08     0.000     0.000     0.000  
+ ----------------------------------------------------------------------------  
+ TOTAL TRANSLATIONAL MASS PARTICIPATION FACTORS    83.049    82.595     0.000 
+  
+ MODE PARTICIPATION FOR ROTATIONAL EXCITATION 
+ Mode    Frequency     Modal Mass    Modal Stiff    PF-RX     PF-RY     PF-RZ 
+            (Hz)          (Eng)         (Eng)        (%)       (%)       (%) 
+    1    8.2371E+01    1.2047E+02    3.2270E+07     0.000     0.000    16.820  
+    2    1.2335E+02    1.0863E+02    6.5254E+07     0.000     0.000    62.730  
+    3    2.0696E+02    1.2047E+02    2.0371E+08     0.000     0.000     0.000  
+    4    3.0656E+02    1.3319E+02    4.9413E+08     0.000     0.000     3.996  
+ ----------------------------------------------------------------------------  
+ TOTAL ROTATIONAL MASS PARTICIPATION FACTORS        0.000     0.000    83.547 
+  
+ TOTAL CPU TIME              : 0.359 Seconds 
+  
+*Solution completed on 19/03/2019 at 12:23:38 
+*Solution time: 1 Second 
+  
+ 
+*SUMMARY OF MESSAGES
+*Number of Notes    : 0
+*Number of Warnings : 1
+*Number of Errors   : 0
+ 
