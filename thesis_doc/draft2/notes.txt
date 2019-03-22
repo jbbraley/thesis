@@ -6,6 +6,22 @@ CMIF has been thoroughly documented in literature, devitis thesis, just summariz
 Trying to demonstrate the acceleration is not just high frequency content, that it low frequency and associated with appreicable bridge deformation. Best way to do this?
 Filtering is loose.  Amplification from it is only an estimate. Methods are my own rules-of-thumb. Explain these, list assumptions violated, use FE to demonstrate the feasibility?
  
+send out poll
+Why is slightly higher vehicle frequency worst case
+	show that vehicle is changing freq (load on the bridge)
+	show worst case frequency if only load is applied.
+Why does simplified model have increased errors with higher amplification and with high frequency bridges?
+	try on really soft system 
+	why do errors seem to increase with increase amplification
+
+	what do higher modes contribute
+		% truck accel with different number of included modes
+Is simplified model always conservative
+	show why/always conservative
+	higher modes reduce amplification
+	not conservative when vehicle has a high natural frequency because it excites higher modes not included
+		but still less than worst case (lower frequency vehicle)
+		try with stiff vehicles to show limitations (need to include higher modes)
 
 TO DO:
 make plots line and marker to provide resolution info
